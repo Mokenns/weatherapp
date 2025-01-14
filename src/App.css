@@ -76,3 +76,15 @@
 		background-color: rgb(32, 4, 58, 0.8);
 	}
 }
+
+@keyframes rebote {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
