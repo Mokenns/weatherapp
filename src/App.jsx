@@ -108,9 +108,9 @@ function App() {
 				</div>
 			</div>
 			<div className="weather__details">
-				<p className="weather__details-item">{weather.clouds} %</p>
-				<p className="weather__details-item">{weather.wind} m/s</p>
-				<p className="weather__details-item">{weather.pressure} hPa</p>
+				<p className="weather__details-item">Nubosidad {weather.clouds} %</p>
+				<p className="weather__details-item">Viento {weather.wind} m/s</p>
+				<p className="weather__details-item">Presión {weather.pressure} hPa</p>
 			</div>
 			<button
 				type="button"
