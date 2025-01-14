@@ -1,0 +1,78 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.weather {
+	max-width: 300px;
+	width: 300px;
+	padding: 2em;
+	background-color: rgb(32, 4, 58);
+	border-radius: 20px;
+	outline: 4px solid black;
+}
+
+.weather__title {
+	text-align: center;
+}
+
+.weather__location {
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.weather__content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-block: 0.75em;
+	gap: 1em;
+}
+
+.weather__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 5rem;
+	animation: rebote infinite 3s ease-in-out;
+}
+
+.weather__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&-item {
+		font-size: 0.88rem;
+	}
+}
+
+.weather__details {
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
+
+	&-item {
+		font-size: 0.88rem;
+		display: flex;
+		align-items: center;
+		gap: 0.25em;
+	}
+}
+
+.btn {
+	display: block;
+	margin-inline: auto;
+	padding: 0.5em 1em;
+	margin-top: 2em;
+	border: none;
+	border-radius: 10px;
+	outline: 4px solid black;
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color: rgb(32, 4, 58, 0.8);
+	}
+}
